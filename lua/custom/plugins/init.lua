@@ -15,5 +15,9 @@ return {
   ["folke/zen-mode.nvim"] = {},
   ["iamcco/markdown-preview.nvim"] = {},
   ["preservim/nerdcommenter"] = {},
-  ["kien/ctrlp.vim"] = {},
+  ["airblade/vim-gitgutter"] = {},
+  ["preservim/nerdtree"] = {},
+  ["ryanoasis/vim-devicons"] = {},
+  ["Xuyuanp/nerdtree-git-plugin"] = {},
+  ["tpope/vim-fugitive"] = {},
 }
