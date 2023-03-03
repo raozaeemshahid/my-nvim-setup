@@ -20,4 +20,6 @@ return {
   ["ryanoasis/vim-devicons"] = {},
   ["Xuyuanp/nerdtree-git-plugin"] = {},
   ["tpope/vim-fugitive"] = {},
+  ["wakatime/vim-wakatime"] ={},
+  ["prisma/vim-prisma"] = {},
 }

@@ -62,6 +62,7 @@ M.general = {
 
     -- custom mappings
     ["<leader>n"] = { "<cmd> :NERDTreeFocus <CR>", "toggle NERDTree" },
+    ["<leader>pi"] = { "<cmd> :Prettier <CR>", "Pretty code" },
   },
 
   t = { ["<C-x>"] = { termcodes "<C-\\><C-N>", "escape terminal mode" } },
