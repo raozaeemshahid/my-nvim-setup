@@ -61,7 +61,7 @@ M.general = {
     ["<leader>b"] = { "<cmd> enew <CR>", "new buffer" },
 
     -- custom mappings
-    ["<leader>n"] = { "<cmd> :NERDTreeFocus <CR>", "toggle NERDTree" },
+    ["<leader>n"] = { "<cmd> :Neotree <CR>", "toggle NeoTree" },
     ["<leader>pi"] = { "<cmd> :Prettier <CR>", "Pretty code" },
   },
 

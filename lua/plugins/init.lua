@@ -170,16 +170,16 @@ local plugins = {
   },
 
   -- file managing , picker etc
-  ["nvim-tree/nvim-tree.lua"] = {
-    ft = "alpha",
-    cmd = { "NvimTreeToggle", "NvimTreeFocus" },
-    config = function()
-      require "plugins.configs.nvimtree"
-    end,
-    setup = function()
-      require("core.utils").load_mappings "nvimtree"
-    end,
-  },
+  -- ["nvim-tree/nvim-tree.lua"] = {
+  --   ft = "alpha",
+  --   cmd = { "NvimTreeToggle", "NvimTreeFocus" },
+  --   config = function()
+  --     require "plugins.configs.nvimtree"
+  --   end,
+  --   setup = function()
+  --     require("core.utils").load_mappings "nvimtree"
+  --   end,
+  -- },
 
   ["nvim-telescope/telescope.nvim"] = {
     cmd = "Telescope",
